@@ -1,0 +1,9 @@
+.billing-ar::-webkit-scrollbar{
+    display: none !important;
+}
+.billing-ar {
+    overflow-y: scroll;  /* Add scrolling functionality */
+    scrollbar-width: none; /* Hide scrollbar on browsers that support this property */
+    -ms-overflow-style: none; /* Hide scrollbar on Microsoft Edge */
+  }
+

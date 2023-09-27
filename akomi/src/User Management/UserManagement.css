@@ -1,0 +1,76 @@
+/* .customSearchPanel{
+
+} */
+.managment_buttons{
+    display: flex;
+    margin-left: auto;
+    width: 226px;
+    margin-right: -75px;
+    margin-bottom: -9px
+}
+#search_by_name::placeholder{
+        color: #999; 
+        font-size: 13px; 
+        margin-left:"8px"
+}
+/* new user */
+.add_user{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+.user_Info{
+    width: 107%;
+    position: relative;
+    left: -17px;
+    top: -16px;
+    background: #f2f2f2;
+}
+.user_Information{
+    margin-left: 16px;
+    height: 34px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+}
+.NewUser.modal-dialog.modal-content{
+ width:900px !important;
+}
+.profile_phto_input {
+    width: 315px;
+    margin-left: 154px;
+    margin-top: -28px;
+}
+.file {
+    margin-left: 9px;
+}
+.dx-field {
+    position: relative;
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Helvetica Neue","Segoe UI",helvetica,verdana,sans-serif;
+    line-height: -0.5;
+    min-height: 36px;
+    padding: 0;
+}
+.dx-texteditor-input-container>.dx-texteditor-input {
+    height: 29px;
+}
+.file {
+    position: relative;
+    width: 97px;
+    position: relative;
+    right: 153px;
+    display: flex;
+    top: 31px;
+}
+[aria-describedby~="dx-col-69"]{
+ text-align: center !important ;
+}
+.dx-datagrid-content .dx-datagrid-table .dx-row > td:first-child{
+    text-align: center;
+}

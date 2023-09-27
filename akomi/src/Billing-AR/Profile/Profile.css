@@ -1,0 +1,33 @@
+.Profile
+{
+    display: flex;
+    flex-direction: column;
+}
+
+ /* .profile_body.text-center {
+    height: 284px !important;
+    width: 375px !important;
+}  */
+.profile_section {
+    margin-top: -21px;
+    width: 86%;
+    max-width: 86%;
+    height: 530px;
+} 
+.my-3 {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+}
+p.mb-0 {
+    margin-bottom: 0 !important;
+    text-align: left;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    height: 287px;
+}
+.card.shadow-2-strong {
+    height: 360px;
+}

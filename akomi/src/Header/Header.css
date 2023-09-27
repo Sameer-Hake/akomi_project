@@ -1,0 +1,77 @@
+.header{
+    position: sticky;
+    top:0px;
+    z-index: 100;
+}
+.header-top{
+    width:100%;
+    height:66px;
+    display: flex;
+    background-color:  black; 
+}
+
+.header-first{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:10px;
+    /* background-color: aqua; */
+}
+
+.header-second{
+    width:50%;
+    height:100%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: flex-end;
+}
+.user-name-text{
+    height: 100%;
+    /* background-color: bisque; */
+    margin-top: 14px;
+    margin-right: 28px;
+    cursor: pointer;
+    font-weight: 300px;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-img {
+    margin-bottom: 27px;
+    height: 44%;
+    width: 123px;
+    margin-left: 9px;
+    margin-top: 2px;
+}
+.admin_button{
+    background: black !important;
+    border: none !important;
+    margin-top: 6px !important;
+    margin-left: 26px !important;
+}
+.dropdown-toggle::after {
+    opacity: 0;
+}
+.dropdown-menu.show {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    transform: translate(-70px, 47px);
+}
+.dropdown-menu.show {
+    /* margin-top: 18px; */
+    right: 6px !important;
+    top: 10px !important;
+}
+.custom-links-admin {
+    color: rgb(32, 32, 32);
+    font-size: 13.3px;
+    /* line-height: 40px; */
+    word-spacing: 0px;
+    font-weight: 400 !important;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s, top 0.3s;
+    padding: 9px 31px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}

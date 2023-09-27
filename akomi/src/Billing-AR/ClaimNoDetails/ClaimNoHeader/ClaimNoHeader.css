@@ -1,0 +1,44 @@
+.claim-header1{
+    position: sticky;
+    top:0px;
+}
+.claim-header-top{
+    width:100%;
+    height:65px;
+    display: flex;
+    background-color:  black; 
+}
+
+.claim-header-first{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:10px;
+    /* background-color: aqua; */
+}
+
+.claim-header-second{
+    width:50%;
+    height:100%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: flex-end;
+}
+.user-name-text{
+    height: 100%;
+    /* background-color: bisque; */
+    margin-top: 14px;
+    margin-right: 28px;
+    cursor: pointer;
+    font-weight: 300px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logoimgg {
+    margin-top: -28px !important;
+    height: 38%;
+    width: 115px;
+    margin-left: 9px;
+}

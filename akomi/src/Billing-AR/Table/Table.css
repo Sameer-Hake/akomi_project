@@ -1,0 +1,331 @@
+.dx-datagrid {
+    color: #333;
+    background-color: #fff;
+    line-height: inherit;
+    margin-top: 30px !important;
+    width:98%;
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+.dx-widget {
+    /* display: block; */
+    -ms-content-zooming: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    padding: 0;
+    outline: 0;
+    -webkit-print-color-adjust: exact;
+    color: #333;
+    font-weight: 600;
+    font-size: 9px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.35715;
+}
+ /* row selection border */
+ .dx-checkbox-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.dx-checkbox-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+ /* Adjacest the header panel from here */
+.dx-toolbar-items-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%; 
+    height: 100%;
+    top: -20%;
+    left: -68.5%;
+}
+.dx-texteditor.dx-editor-outlined {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 313px !important;
+}
+.dx-texteditor-input-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    position: relative;
+    -ms-flex-align: baseline;
+    align-items: center;
+    height: 26px;
+   
+    /* width: 251px !important; */
+}
+.dx-placeholder {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    /* max-width: 100%; */
+    width: auto;
+    height: 100%;
+    text-align: left;
+    cursor: text;
+    pointer-events: none;
+    color: #999;
+}
+.dx-searchbox .dx-icon-search {
+    font: 17px/18px DXIcons;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    width: 34px;
+    height: 34px;
+    background-position: 8px 8px;
+    background-size: 18px 18px;
+    padding: 8px;
+    text-align: center;
+    color: #999;
+    visibility: hidden;
+}
+.dx-pager .dx-pages {
+    white-space: nowrap;
+    float: left;
+    margin-left: 20px;
+}
+.dx-pager .dx-pages .dx-page {
+    margin-top: 8px;
+    padding: 7px 13px 7px;
+}
+.dx-pager .dx-pages .dx-selection {
+    cursor: inherit;
+    text-shadow: none;
+    color: #333;
+    border-color: transparent;
+    background-color: #d4d4d4;
+}
+.dx-pager .dx-pages .dx-page {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 6px;
+    margin-right: 3px;
+}
+
+.dx-datagrid-header-panel{
+    font-size: 12.18px ;
+}
+ /* font size of input bar */
+toolbar-item-content > .dx-texteditor, .dx-toolbar-item-content.dx-texteditor {
+    width: 150px;
+    font-size: 12.18px ;
+}
+ /* font size of paging */
+ .dx-datagrid-borders > .dx-datagrid-pager {
+    margin-top: -1px;
+    font-size: 13px;
+}
+tbody [aria-colindex="2"]{
+    text-align: center !important;
+}
+tbody [aria-colindex="9"]{
+    text-align: center !important;
+}
+tbody [aria-colindex="10"]{
+    text-align: center !important;
+}
+tbody [aria-colindex="11"]{
+    text-align: center !important; 
+}
+tbody [aria-colindex="12"]{
+    text-align: center !important; 
+}
+tbody [aria-colindex="13"]{
+    text-align: center !important; 
+}
+tbody [aria-colindex="14"]{
+    text-align: center !important; 
+}
+ 
+/* Table cursor */
+.dx-scrollable-scroll-content {
+    width: 100%;
+    height: 140%;
+     background-color: #bfbfbf; /*when we dont click on the inner scroll bar then only apply this color */
+    -webkit-box-shadow: 0 0 0 1px transparent;
+    box-shadow: 0 0 0 1px transparent;
+}
+.dx-scrollbar-horizontal.dx-scrollbar-hoverable {
+    /* height: 8px; */
+    -webkit-transition: height .2s linear .15s,background-color .2s linear .15s;
+    transition: height .2s linear .15s,background-color .2s linear .15s;
+    background-color: #DDDDDD
+}
+.dx-scrollbar-horizontal.dx-scrollbar-hoverable:hover{
+    height:8px;
+    
+}
+.dx-scrollbar-horizontal.dx-scrollbar-hoverable:active{
+    height:8px;
+    
+}
+.dx-scrollbar-hoverable .dx-scrollable-scroll.dx-state-invisible .dx-scrollable-scroll-content{
+    background-color:#bfbfbf ;
+}
+/* .dx-scrollbar-horizontal.dx-scrollbar-hoverable .dx-state-hover .dx-scrollable-scroll{
+    height:10px !important;
+} */
+.dx-scrollbar-hoverable .dx-scrollable-scroll.dx-state-invisible .dx-scrollable-scroll-content {
+     background-color: #bfbfbf;/* red by default */
+    /* -webkit-box-shadow: 0 0 0 1px transparent; */
+    /* box-shadow: 0 0 0 1px transparent; */
+    height: 18px;
+}
+.dx-scrollbar-hoverable.dx-scrollable-scrollbar-active.dx-scrollable-scroll-content{
+    background-color: #0b0c0c !important;
+}
+.dx-datagrid-borders > .dx-datagrid-headers {
+    border-top: 0px solid #ddd;
+}
+.dx-datagrid-borders > .dx-datagrid-headers{
+    border-left: 0px solid #ddd;
+    border-right: 0px solid #ddd;
+    border-bottom: 0px solid #ddd;
+}
+.dx-datagrid-headers {
+    color: black !important;
+    font-weight:600;
+  }
+  .dx-datagrid-headers {
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom;
+    border-bottom: 0px solid #ddd;
+    border-left:0px solid black !important;
+    border-top:0px solid black !important;
+  }
+  .dx-datagrid .dx-column-lines > td {
+    border-left: 1px solid #ddd;
+    border-right: 0px solid #ddd;
+  }
+  
+  tbody [aria-colindex="0"]{
+    border-top:0px solid black !important;
+    border-left:0px solid black !important;
+  }
+  .dx-datagrid .dx-column-lines > td:first-child {
+    border-left: 0px solid #ddd !important;
+    border-right: 0px solid #ddd;
+  }
+  .dx-datagrid .dx-row-lines > td {
+    border-bottom: 1px solid rgb(243, 241, 241);
+  }
+  .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    border-bottom: 0px solid #ddd;
+    background: white !important;
+    border-left: none !important;
+  }
+  .dx-datagrid-borders > .dx-datagrid-header-panel {
+    border-bottom: 0;
+    position: relative;
+    top: -54px;
+    left: -3px;
+    min-width: 1370px;
+}
+.dx-datagrid-content .dx-datagrid-table .dx-row > td{
+    vertical-align: middle !important;
+}
+.dx-datagrid .dx-row > td {
+    padding: 3px !important;
+}
+.customstyle{
+    vertical-align: middle !important;
+}
+.dx-datagrid-borders > .dx-datagrid-headers, .dx-datagrid-borders > .dx-datagrid-rowsview, .dx-datagrid-borders > .dx-datagrid-total-footer {
+    border-left: 0px solid #ddd;
+    border-right: 0px solid #ddd;
+}
+.dx-header-row > td > .dx-datagrid-text-content:not(.dx-sort-indicator):not(.dx-header-filter-indicator) {
+    max-width: 100%;
+    margin-bottom: 11px;
+}
+.dx-datagrid .dx-selection.dx-selection-multi .dx-row.dx-selection {
+    background-color: #FFD700 !important; /* Change this to the desired color */
+    color: black !important; /* Change this to the desired text color */
+}
+  .dx-datagrid-content .dx-datagrid-table .dx-row .dx-command-select {
+    padding: 0;
+    width: 30px;
+    min-width: none;
+    max-width: none;
+}
+.dx-datagrid-table colgroup col:first-child {
+    width: 35px !important;
+}
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td{
+    
+        background-color: #CDEAFF !important;
+        color: #333;
+    
+} 
+.dx-datagrid-rowsview .dx-select-checkboxes-hidden > tbody > tr > td > .dx-select-checkbox {
+    display: block;
+    margin-left: 5px;
+}
+/* 
+.dx-texteditor-input-container {
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    align-items: center;
+    height: 25px !important;
+     width: 251px !important;
+} */
+.dx-texteditor-input {
+    margin: 0;
+    padding: 7px 10px 7px;
+    background: rgba(0,0,0,0);
+    color: #333;
+    font-size: 10.3px;
+    border-radius: 4px;
+    min-height: 22px;
+}
+.dx-placeholder {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+    text-align: left;
+    cursor: text;
+    pointer-events: none;
+    color: #c4c2c2;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+ 
+/* .dx-texteditor-container {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -14px;
+} */
+/* .dx-texteditor.dx-editor-outlined {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 313px !important;
+    top: -1px;
+} */
+.dx-texteditor-input-container>.dx-texteditor-input{
+    height:27px;
+}
+#dx-7c4f4bfc-a552-5ed7-44da-a39fae5939dd{
+ left:-20px;
+}
